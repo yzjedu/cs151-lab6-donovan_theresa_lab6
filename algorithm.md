@@ -23,3 +23,4 @@
 4. if the amount of money is less than zero
    4. output error
 5. else add current bal
+
