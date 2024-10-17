@@ -36,6 +36,7 @@
 1. Explain the purpose
 2. call the function decisions
 3. set count equal to 0
+4. Show menu presenting options of atm machine
 4. Start a while loop that continues until the user enters 'E' to exit:
    1. If the choice is 'D' (Deposit):
       1. Prompt the user to enter the amount to deposit set to the variable amount.
