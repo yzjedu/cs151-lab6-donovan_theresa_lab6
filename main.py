@@ -20,7 +20,8 @@ def decision():
               "\n\t W - Withdraw"
               "\n\t V - View Balance"
               "\n\t E - Exit")
-        choice = input("Your choice: ").strip().upper()
+
+    choice = input("Your choice: ").strip().upper()
 
 def valid_num(amount):
     if not amount.isdigit():
