@@ -12,7 +12,6 @@
 
 count = 0
 balance = 1000
-amount = 0
 
 def display_menu():
         print("\nPlease select an option:"
@@ -27,6 +26,12 @@ def valid_num(amount):
     else:
         count += 1
         amount = int(amount)
+
+def valid_integer(amount):
+    if amount < 0:
+        print('error')
+    else:
+        count += 1
 
 def main():
     print('This program operates like an ATM. You can deposit, withdraw, or view your balance.')
@@ -58,7 +63,6 @@ def main():
     elif choicezee == 'E':
         print('You are now exiting, thank you for using the program!')
 main()
-
 
 
 
