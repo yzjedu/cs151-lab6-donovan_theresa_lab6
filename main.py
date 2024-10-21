@@ -28,12 +28,6 @@ def valid_num(amount):
         count += 1
         amount = int(amount)
 
-def valid_integer(amount):
-    if amount < 0:
-        print('error')
-    else:
-        count += 1
-
 def main():
     print('This program operates like an ATM. You can deposit, withdraw, or view your balance.')
     choicezee = ''
