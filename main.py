@@ -9,6 +9,10 @@
 # Credits: In Class
 
 
+
+count = 0
+balance = 1000
+amount = 0
 def decision():
     Choice ='a'
     while (Choice != 'D'or
@@ -28,5 +32,44 @@ def valid_num(amount):
     else:
         count += 1
         amount = int(amount)
+
+def valid_integer(amount):
+    if amount < 0:
+        print('error')
+    else:
+        count += 1
+
+def main():
+    print('This program operates like an ATM. You can deposit, withdraw, or view your balance.')
+    decision()
+    while Choice != 'E':
+        if choice == 'D':
+            amount = input('Enter amount of money you want deposited')
+            while amount != 2:
+                valid_num()
+                valid_integer()
+            balance = balance + amount
+            print(balance)
+            decision()
+        elif choice == 'V':
+            print (balance)
+            decision()
+        elif choice == 'W':
+            amount = input('Enter amount of money you want withdrawn')
+            while count != 2:
+                valid_num()
+                valid_integer()
+            balance = balance - amount
+            print(balance)
+            decision()
+        elif choice == 'E':
+            print('You are now exiting, thank you for using the program!')
+main()
+
+
+
+
+
+
 
 
