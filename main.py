@@ -7,3 +7,26 @@
 # Data In: Letter of the function chosen by user
 # Data Out:  Operation of chosen function
 # Credits: In Class
+
+
+def decision():
+    Choice ='a'
+    while (Choice != 'D'or
+           Choice != 'W'or
+           Choice != 'V'or
+           Choice != 'E'):
+        print("\nPlease select an option:"
+              "\n\t D - Deposit"
+              "\n\t W - Withdraw"
+              "\n\t V - View Balance"
+              "\n\t E - Exit")
+        choice = input("Your choice: ").strip().upper()
+
+def valid_num(amount):
+    if not amount.isdigit():
+        print("\nPlease enter a valid number above 0.")
+    else:
+        count += 1
+        amount = int(amount)
+
+
