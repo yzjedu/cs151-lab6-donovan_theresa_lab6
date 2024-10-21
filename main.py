@@ -13,19 +13,13 @@
 count = 0
 balance = 1000
 amount = 0
-def decision():
-    Choice ='a'
-    while (Choice != 'D'or
-           Choice != 'W'or
-           Choice != 'V'or
-           Choice != 'E'):
+
+def display_menu():
         print("\nPlease select an option:"
               "\n\t D - Deposit"
               "\n\t W - Withdraw"
               "\n\t V - View Balance"
               "\n\t E - Exit")
-
-    choice = input("Your choice: ").strip().upper()
 
 def valid_num(amount):
     if not amount.isdigit():
@@ -42,29 +36,33 @@ def valid_integer(amount):
 
 def main():
     print('This program operates like an ATM. You can deposit, withdraw, or view your balance.')
-    decision()
-    while Choice != 'E':
-        if choice == 'D':
-            amount = input('Enter amount of money you want deposited')
-            while amount != 2:
-                valid_num()
-                valid_integer()
-            balance = balance + amount
-            print(balance)
-            decision()
-        elif choice == 'V':
-            print (balance)
-            decision()
-        elif choice == 'W':
-            amount = input('Enter amount of money you want withdrawn')
-            while count != 2:
-                valid_num()
-                valid_integer()
-            balance = balance - amount
-            print(balance)
-            decision()
-        elif choice == 'E':
-            print('You are now exiting, thank you for using the program!')
+    choicezee = ''
+
+    while choicezee != 'D' and choicezee != 'W' and choicezee != 'V' and choicezee != 'E':
+        display_menu()
+        choicezee = input('Enter your option here: ').upper().strip()
+
+    if choicezee == 'D':
+        amount = input('Enter amount of money you want deposited')
+        while amount != 2:
+            valid_num()
+            valid_integer()
+        balance = balance + amount
+        print(balance)
+        decision()
+    elif choicezee == 'V':
+        print (balance)
+        decision()
+    elif choicezee == 'W':
+        amount = input('Enter amount of money you want withdrawn')
+        while count != 2:
+            valid_num()
+            valid_integer()
+        balance = balance - amount
+        print(balance)
+        decision()
+    elif choicezee == 'E':
+        print('You are now exiting, thank you for using the program!')
 main()
 
 
