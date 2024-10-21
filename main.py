@@ -10,8 +10,6 @@
 
 
 
-count = 0
-
 def display_menu():
         print("\nPlease select an option:"
               "\n\t D - Deposit"
@@ -23,35 +21,36 @@ def valid_num(amount):
     if not amount.isdigit():
         return False
     else:
-        int(amount)
-        return amount
+        return int(amount)
 
 
 def main():
     balance = 1000
     print('This program operates like an ATM. You can deposit, withdraw, or view your balance.')
     choicezee = ''
-
-    while choicezee != 'D' and choicezee != 'W' and choicezee != 'V' and choicezee != 'E':
+    while choicezee != 'E':
         display_menu()
         choicezee = input('Enter your option here: ').upper().strip()
 
+        while choicezee != 'D' and choicezee != 'W' and choicezee != 'V' and choicezee != 'E':
+            display_menu()
+            choicezee = input('Enter your option here: ').upper().strip()
+
         if choicezee == 'D':
             amount = input('Enter amount of money you want deposited ')
-            valid_num(amount)
+            amount = valid_num(amount)
             balance = balance + amount
             print(balance)
-            display_menu()
+
         elif choicezee == 'V':
             print (balance)
-            display_menu()
 
         elif choicezee == 'W':
             amount = input('Enter amount of money you want withdrawn')
-            valid_num(amount)
+            amount = valid_num(amount)
             balance = balance - amount
             print(balance)
-            display_menu()
+
         elif choicezee == 'E':
             print('You are now exiting, thank you for using the program!')
 main()
