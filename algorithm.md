@@ -44,14 +44,17 @@
          3. call valid number
          3. call valid integer
       4. Display the new balance to the user.
+      5. call decisions
    4. Otherwise if the choice is 'V' (View Balance):
       1. Output the current balance to the user.
+      2. call decisions
    5. Otherwise if the choice is 'W' (Withdraw):
       1. Prompt the user to enter the amount to withdraw.
       2. while count is not equal 2
          2. call valid number
          3. call valid integer
       4. Display the new balance to user
+      5. call decisions
    6. Otherwise if the choice is 'E' (Exit):
    - Output a message thanking the user and indicate the program is ending.
    - Thank the user
