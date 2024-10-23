@@ -1,7 +1,7 @@
 # Algorithm Document
 
 
-#### Name: decisions
+#### Name: display menu
 #### Parameter:None
 #### Return: whatever user chooses 
 #### Algorithm
@@ -15,47 +15,36 @@
 #### Return: Integer
 #### Algorithm:
 1. if amount of money is not a digit 
-   2. output error message
+   2. return false
 2. otherwise
-   2. add 1 to count 
-   2. change the amount of money to an integer
+   2. change the amount of money to an integer and return it
 
-#### Name: valid integer
-#### Parameter: amount
-#### Return: positive integer
-#### Algorithm:
-1. if the amount of money is less than zero
-   1. output error
-2. otherwise
-   2. add 1 to count 
 
 #### Name:main
 #### Parameter: valid number, valid integer, decisions
 #### Return: none
 #### Algorithm:
 1. Explain the purpose
-2. call the function decisions
-3. set count equal to 0
-4. Show menu presenting options of atm machine 
-4. Start a while loop that continues until the user enters 'E' to exit:
+2. sets the variable balance to 1000
+3. create a variable choice set to an empty string
+4. while choice is not E
+   2. call the function to display the menu
+      4. Show menu presenting options of atm machine 
+      5. prompt the user to input their choice
+   4. Start a while loop that continues until the user enters a valid choice:
+      5. Show menu presenting options of atm machine 
+      5. prompt the user to input their choice
    1. If the choice is 'D' (Deposit):
       1. Prompt the user to enter the amount to deposit set to the variable amount.
-      2. while is not count equal 2
-         3. call valid number
-         3. call valid integer
+      2. set amount to amount after running it through the valid number function
+      3. add the amount to balance and update to new balance
       4. Display the new balance to the user.
-      5. call decisions
    4. Otherwise if the choice is 'V' (View Balance):
       1. Output the current balance to the user.
-      2. call decisions
    5. Otherwise if the choice is 'W' (Withdraw):
       1. Prompt the user to enter the amount to withdraw.
-      2. while count is not equal 2
-         2. call valid number
-         3. call valid integer
-      4. Display the new balance to user
-      5. call decisions
+      2. set amount to amount after running it through the valid number function
+      3. subtract the amount to balance and update to new balance
+      4. Display the new balance to the user.
    6. Otherwise if the choice is 'E' (Exit):
-   - Output a message thanking the user and indicate the program is ending.
-   - Thank the user
-
+      - Output a message thanking the user and indicate the program is ending.
