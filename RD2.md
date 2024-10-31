@@ -1,49 +1,48 @@
-ENCRYPTED:
-# Qdekdbshnm Cnbtldms
+# Reflection Document
 
-* Cqhud Etkk Mzld  : Cnmnuzm Qzxlnmc
-* Ozqsmdq Etkk Mzld: Sgdqdrz CdIzbhln
-* Rstcdms HC: 1932791
+* Drive Full Name  : Donovan Raymond
+* Partner Full Name: Theresa DeJacimo
+* Student ID: 1932791
 
-zmc zccqdrrhmf sgd enkknvhmf ptdrshnmr:
+and addressing the following questions:
 
-Naidbshud:
-1. Vgzs vdqd xnt rtoonrdc sn kdzqm/zbbnlokhrg?
-   1. Cdrhfmhmf zmc oqnfqzllhmf etmbshnmr 
-   2. Qd-trhmf lzmx ne sgd nsgdq zrodbsr ne Oxsgnm vd'ud kdzqmdc rn ezq 
-   3. Sdrshmf bncd 
-   4. Trhmf knnor enq hmots uzkhczshnm zmc dqqnq bgdbjhmf
+Objective:
+1. What were you supposed to learn/accomplish?
+   1. Designing and programming functions 
+   2. Re-using many of the other aspects of Python we've learned so far 
+   3. Testing code 
+   4. Using loops for input validation and error checking
 
 
-Oqnbdctqd:
-1. Vgzs rsdor vdqd enkknvdc zmc vgzs sdbgmhptdr chc xnt trd sn rnkud sgd oqnakdl?
-   1.  Ehqrs, vd tmcdqrsnnc sgd oqnakdl 
-   2. Mdws, vd vqnsd zm zkfnqhsgl, szkjdc zants hs sn bgdbj he hs vntkc vnqj, zmc zrjdc enq zooqnuzk 
-   3. Mdws, vd bqdzsdc sdrsr bzrdr 
-   4. Sgdm vd vqnsd ntq bncd zmc bnlldmsr 
-2. Vgzs vdqd sgd Jdx bnmbdosr dwoknqdc?
-   1. Rnld ne sgd jdx bnmbdosr dwoknqdc vdqd qdezbsnqhmf, etmbshnmr, 
-   knbzkhydc zmc fknazk uzqhzakdr zmc cdatffhmf
+Procedure:
+1. What steps were followed and what techniques did you use to solve the problem?
+   1.  First, we understood the problem 
+   2. Next, we wrote an algorithm, talked about it to check if it would work, and asked for approval 
+   3. Next, we created tests cases 
+   4. Then we wrote our code and comments 
+2. What were the Key concepts explored?
+   1. Some of the key concepts explored were refactoring, functions, 
+   localized and global variables and debugging
 
-Qdrtksr:
-1. Chc xntq qdrtksr lzsbg vgzs xnt dwodbsdc sn fds?
-   1. Xdr ntq qdrtksr zqd dwzbskx vgzs vd vzmsdc zmc dwodbsdc 
-2. Chc xnt sqx trhmf uzqhntr sdrs bzrdr, nq dwsqdld sdrs bzrdr?
-   1. Vd trdc sdrs bzrdr fhudm sn tr
+Results:
+1. Did your results match what you expected to get?
+   1. Yes our results are exactly what we wanted and expected 
+2. Did you try using various test cases, or extreme test cases?
+   1. We used test cases given to us
 
-Qdekdbshnm:
-1. Vgzs bgzkkdmfdr chc xnt dmbntmsdq?
-   1.  Nmd bgzkkdmfd sgzs vd dmbntmsdqdc vntkc ad rokhsshmf to vnqj zmc bnchmf.
-2. Gnv chc xnt enkknv sgd ehqrs 3 qtkdr ne oqnfqzllhmf?
-   1. H tmcdqrsnnc sgd oqnakdl 
-   2. Lzcd z okzm 
-   3. H hlokdldmsdc lx okzm zmc sdrsdc hs
-3. Chc xnt nudqbnld sgdl, zmc gnv? 
-   1. Xdr hs snnj rnld shld ats zkk ne lx hrrtdr vdqd gzmckdc
-4. Zmx jdx szjdzvzxr? 
-   1. Z jdx szjdzvzx enq ld vntkc ad qdezbsnqhmf, etmbshnmr, 
-   knbzkhydc zmc fknazk uzqhzakdr zmc cdatffhmf
-5. Cn xnt sghmj xnt kdzqmdc vgzs xnt vdqd rtoonrdc sn kdzqm enq sghr kza?
-   1. Xdr, H adkhdud H kdzqmdc dudqxsghmf H vzr hmsdmcdc sn kdzqm.
-6. Vgzs vzr hs khjd vnqjhmf vhsg xntq ozqsmdq? 
-   1. Hs vzr fqdzs vnqjhmf vhsg Sgdqdrz.
+Reflection:
+1. What challenges did you encounter?
+   1.  One challenge that we encountered would be splitting up work and coding.
+2. How did you follow the first 3 rules of programming?
+   1. I understood the problem 
+   2. Made a plan 
+   3. I implemented my plan and tested it
+3. Did you overcome them, and how? 
+   1. Yes it took some time but all of my issues were handled
+4. Any key takeaways? 
+   1. A key takeaway for me would be refactoring, functions, 
+   localized and global variables and debugging
+5. Do you think you learned what you were supposed to learn for this lab?
+   1. Yes, I believe I learned everything I was intended to learn.
+6. What was it like working with your partner? 
+   1. It was great working with Theresa.
